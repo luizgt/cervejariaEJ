@@ -1,0 +1,174 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#bgVideo{
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+    height: auto;
+    z-index: 10; 
+}
+#contato{
+    text-align: center;
+    color: white;
+}
+#mask{
+    position: absolute;
+    background: rgba(0,0,0,.7);
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+}
+#navbar{
+    position: fixed;
+    right: 20px;
+    top: 50px;
+    height: 50px;
+    width: 400px;
+}
+#navbar a{
+    color:white;
+    display: block;
+    float: left;
+    padding: 15px;
+    width: calc((100%/3) - 30px);
+    text-align: center;
+    transition: all .4s;
+    cursor: pointer;
+    text-decoration: none;
+}
+#navbar a:hover{
+    background:rgba(255,255,255,.1);
+    border-bottom: 2px solid rgba(237, 206, 33, 1);
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, .3);
+}
+#div-logo{
+    cursor: pointer;
+    position: fixed;
+    left: 20px;
+    top: 30px;
+    height: 125px;
+    width: 125px;
+}
+#div-logo{
+    position: fixed;
+    left: 20px;
+    top: 30px;
+    height: 80px;
+    width: 80px;
+    background: white;
+    text-align: center;
+    line-height: 80px;
+    background-size: cover;
+    float: left;
+}
+#nome-cervejaria{
+    height: 80px;
+    display: block;
+    border-bottom: 1px solid rgba(237, 206, 33, .7);
+    position: fixed;
+    left: 120px;
+    top: 20px;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    line-height: 100px;
+}
+#bv{
+    text-align: center;
+    width: 100%;
+    opacity: 0.0;
+    transition: all 3s;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+#content-contato{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-70%);
+}
+.page{
+    position: fixed;
+    height: calc(100% - 200px);
+    width: 95%;
+    top: 156px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background: rgba(0, 0, 0, .4);
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, .1);
+    z-index: 30;
+    opacity: 0.0;
+    transition: all .5s;
+}
+.item-active{
+    background:rgba(255,255,255,.1);
+    border-bottom: 2px solid rgba(237, 206, 33, 1);
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, .3);
+}
+
+/* começo rodapé */
+
+#antsac{
+    position: relative;
+    height: 45%;
+    width: 33%;
+    float: left;
+}
+
+#sac{
+    position: relative;
+    height: 45%;
+    width: 34%;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+#possac{
+    position: relative;
+    height: 45%;
+    width: 33%;
+    float: left;
+}
+
+#endereco{
+    position: relative;
+    height: 36%;
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+#sociais{
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    bottom: 0;
+    padding-top: 12px;
+    text-align: center;
+    background-color: rgba(237, 206, 33, 1);
+}
+
+.logosociais{
+    text-align: center;
+    height: 40px;
+    width: 40px;
+}
+
+/* fim da parte do rodapé */

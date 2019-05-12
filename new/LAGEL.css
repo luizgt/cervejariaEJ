@@ -1,0 +1,102 @@
+#menu:hover{
+    border-bottom: 2px solid rgba(237, 206, 33);
+    color: rgba(237, 206, 33);  
+}
+
+#menu_principal:hover{
+    color: rgba(237, 206, 33);  
+}
+
+i{
+    margin-left: 5%;
+    font-size: 40px;
+    color: white;
+}
+
+i:hover{
+    color: rgba(237, 206, 33);  
+}
+
+body {
+      font-family: 'Roboto Slab', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.carousel-item{
+    background-color: black;
+    background-image: url('img/wpp.jpg');
+}
+
+.navbar{
+    background: rgba(0,0,0,.5);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: 18px;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+    font-size: 22px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.nav-item .nav-link{
+    margin-right: 5%;
+    border-bottom: 2px solid rgba(237, 206, 33, 1);
+    
+}
+
+.sleep-video {
+    left: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    z-index: -20;
+}
+
+/* começo rodapé */
+
+#Contato{
+    height: 250px;
+}
+
+#contact1{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background-color:#42201C;
+    padding-top: 15px;
+}
+
+#mapa{
+    width: 50%;
+    min-height: 100%;
+    display: inline-block;
+}
+
+#sociais{
+    position: relative;
+    height: 20%;
+    width: 100%;
+    float: left;
+    padding-top: 12px;
+    text-align: center;
+    background-color: rgb(175, 100, 14);
+}
+
+/* fim da parte do rodapé */
