@@ -60,12 +60,12 @@ body{
     top: 30px;
     height: 80px;
     width: 80px;
-    background: white;
     text-align: center;
     line-height: 80px;
     background-size: cover;
     float: left;
 }
+
 #nome-cervejaria{
     height: 80px;
     display: block;
